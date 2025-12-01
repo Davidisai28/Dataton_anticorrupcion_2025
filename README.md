@@ -23,7 +23,7 @@ El objetivo es aportar una herramienta abierta, transparente y replicable para a
 👉 Prueba el dashboard aquí:  
 [🌐 PatrimonIA en Streamlit](https://codifikados-datatonanticorrupcion2025-8u6mrjovxpzpf5ezsntfny.streamlit.app/)
 
-> ⏱ **Nota:** debido al tamaño del conjunto de datos (cientos de miles de declaraciones) y a que el CSV se descarga desde almacenamiento externo, **la página puede tardar algunos segundos en cargar la primera vez**. Una vez cargado, la navegación dentro del dashboard es fluida gracias al uso de caché y muestreo en los gráficos más pesados.
+> ⏱ **Nota:** debido al tamaño del conjunto de datos (cientos de miles de declaraciones) y a que el CSV se descarga desde almacenamiento externo, **la página puede tardar algunos segundos en cargar**. 
 
 ---
 
@@ -93,5 +93,5 @@ El dashboard está optimizado para manejar un dataset grande (~700k filas) media
 ├─ dashboard.py               # App principal de Streamlit (PatrimonIA)
 ├─ metadatos_analisis.json    # Metadatos del análisis (fecha, cobertura, umbrales, etc.)
 ├─ requirements.txt           # Dependencias de Python
-├─ analisis_modelo.ipynb      # (Opcional) Notebook de análisis / modelado en Colab/Jupyter
+├─ analisis_modelo.ipynb      # Notebook de análisis / modelado en Colab/Jupyter
 └─ README.md                  # Este archivo
