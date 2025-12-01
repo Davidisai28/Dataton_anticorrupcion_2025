@@ -1,0 +1,15 @@
+{
+  "fecha_analisis": "2025-11-30 21:21:32",
+  "total_declaraciones": 695813,
+  "porcentaje_muestra": 1.0,
+  "num_features": 22,
+  "umbral_ingresos_altos": 744901.2000000002,
+  "distribucion_riesgo": {
+    "Alto": 180860,
+    "Medio": 0,
+    "Bajo": 514953
+  },
+  "cobertura_patrimonial": 0.07451714756694687,
+  "version": "1.1-simple",
+  "tipo": "datos_reales_recalculados"
+}
